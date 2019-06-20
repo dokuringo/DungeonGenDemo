@@ -1,0 +1,12 @@
+﻿<Window x:Class="DungeonGenDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DungeonGenDemo"
+        mc:Ignorable="d"
+        Title="Dungeon Generation" Height="721.929" Width="525" Loaded="Window_Loaded">
+    <DockPanel>
+        <Canvas Name="canvas" SizeChanged="canvas_SizeChanged" Background="Black" MouseLeftButtonDown="canvas_MouseLeftButtonDown" MouseLeftButtonUp="canvas_MouseLeftButtonUp" MouseMove="canvas_MouseMove"/>
+    </DockPanel>
+</Window>
